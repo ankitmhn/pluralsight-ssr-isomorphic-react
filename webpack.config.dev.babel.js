@@ -1,6 +1,5 @@
 import webpack from "webpack";
 import path from "path";
-import HtmlWebpackPlugin from "html-webpack-plugin";
 
 export default {
   mode: "development",
@@ -23,7 +22,6 @@ export default {
         WEBPACK: true,
       },
     }),
-    new HtmlWebpackPlugin(),
   ],
   resolve: {
     extensions: [".js", ".json", ".jsx"],
